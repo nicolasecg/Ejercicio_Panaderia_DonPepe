@@ -1,11 +1,86 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>My Azure Cloud Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería Don Pepe</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #f8b400; padding: 20px; text-align: center; }
+        nav { margin: 20px 0; }
+        nav a { margin: 15px; text-decoration: none; color: white; }
+        .banner { background: url('https://source.unsplash.com/1600x900/?bakery') no-repeat center center; height: 400px; color: white; display: flex; align-items: center; justify-content: center; }
+        .products { display: flex; justify-content: space-around; padding: 20px; }
+        .product { border: 1px solid #ccc; padding: 10px; text-align: center; }
+        .specials { background: #f0e68c; padding: 20px; text-align: center; }
+        footer { text-align: center; padding: 20px; background: #333; color: white; }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Azure Cloud Basics</h1>
-    <img src="https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg" alt="Azure Concept" />
-    <p>Learn how to use Azure efficiently!</p>
-    <img src="https://images.pexels.com/photos/7654321/pexels-photo-7654321.jpeg" alt="Cloud Computing" />
+
+<header>
+    <h1>Panadería Don Pepe</h1>
+    <nav>
+        <a href="#welcome">Inicio</a>
+        <a href="#products">Productos</a>
+        <a href="#specials">Ofertas</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+</header>
+
+<div class="banner">
+    <h2>Bienvenidos a Panadería Don Pepe</h2>
+</div>
+
+<section id="welcome">
+    <h2>Bienvenida</h2>
+    <p>¡Disfruta de nuestros deliciosos productos horneados frescos!</p>
+</section>
+
+<section id="products">
+    <h2>Nuestros Productos</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://source.unsplash.com/150x150/?bread" alt="Pan Integral">
+            <h3>Pan Integral</h3>
+        </div>
+        <div class="product">
+            <img src="https://source.unsplash.com/150x150/?croissant" alt="Croissants">
+            <h3>Croissants</h3>
+        </div>
+        <div class="product">
+            <img src="https://source.unsplash.com/150x150/?donut" alt="Donuts">
+            <h3>Donuts</h3>
+        </div>
+        <div class="product">
+            <img src="https://source.unsplash.com/150x150/?cake" alt="Tartas">
+            <h3>Tartas</h3>
+        </div>
+        <div class="product">
+            <img src="https://source.unsplash.com/150x150/?bagel" alt="Bagels">
+            <h3>Bagels</h3>
+        </div>
+        <div class="product">
+            <img src="https://source.unsplash.com/150x150/?muffin" alt="Muffins">
+            <h3>Muffins</h3>
+        </div>
+    </div>
+</section>
+
+<section id="specials" class="specials">
+    <h2>Ofertas Especiales</h2>
+    <p>Consulta nuestras ofertas del día y aprovecha los descuentos.</p>
+</section>
+
+<section id="contact">
+    <h2>Contacto</h2>
+    <p>Email: info@panaderiandonpepe.com</p>
+    <p>Teléfono: (555) 123-4567</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Panadería Don Pepe. Todos los derechos reservados.</p>
+</footer>
+
 </body>
 </html>
